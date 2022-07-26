@@ -12,8 +12,6 @@
 		91C529E1288DD12B001DC5C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C529E0288DD12B001DC5C2 /* Assets.xcassets */; };
 		91C529E4288DD12B001DC5C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C529E3288DD12B001DC5C2 /* Preview Assets.xcassets */; };
 		91C529EE288DD12B001DC5C2 /* WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C529ED288DD12B001DC5C2 /* WorldTests.swift */; };
-		91C529F8288DD12B001DC5C2 /* WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C529F7288DD12B001DC5C2 /* WorldUITests.swift */; };
-		91C529FA288DD12B001DC5C2 /* WorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C529F9288DD12B001DC5C2 /* WorldUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +40,6 @@
 		91C529E9288DD12B001DC5C2 /* WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C529ED288DD12B001DC5C2 /* WorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTests.swift; sourceTree = "<group>"; };
 		91C529F3288DD12B001DC5C2 /* WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		91C529F7288DD12B001DC5C2 /* WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldUITests.swift; sourceTree = "<group>"; };
-		91C529F9288DD12B001DC5C2 /* WorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +72,6 @@
 			children = (
 				91C529DB288DD128001DC5C2 /* World */,
 				91C529EC288DD12B001DC5C2 /* WorldTests */,
-				91C529F6288DD12B001DC5C2 /* WorldUITests */,
 				91C529DA288DD128001DC5C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,15 +111,6 @@
 				91C529ED288DD12B001DC5C2 /* WorldTests.swift */,
 			);
 			path = WorldTests;
-			sourceTree = "<group>";
-		};
-		91C529F6288DD12B001DC5C2 /* WorldUITests */ = {
-			isa = PBXGroup;
-			children = (
-				91C529F7288DD12B001DC5C2 /* WorldUITests.swift */,
-				91C529F9288DD12B001DC5C2 /* WorldUITestsLaunchTests.swift */,
-			);
-			path = WorldUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91C529F8288DD12B001DC5C2 /* WorldUITests.swift in Sources */,
-				91C529FA288DD12B001DC5C2 /* WorldUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
